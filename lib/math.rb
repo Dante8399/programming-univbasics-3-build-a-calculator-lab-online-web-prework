@@ -21,8 +21,8 @@ p product
 end
 
 def modulo(num1, num2)
-modulo = num1 / num2
-modulo = modulo.to_f
+div = num1.to_f / num2.to_f
+
 p modulo
 end
 
