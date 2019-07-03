@@ -22,8 +22,7 @@ end
 
 def modulo(num1, num2)
 div = num1.to_f / num2.to_f
-
-p modulo
+p div.to_f
 end
 
 def square_root(num)
