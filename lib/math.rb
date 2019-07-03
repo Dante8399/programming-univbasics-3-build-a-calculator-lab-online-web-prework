@@ -21,8 +21,9 @@ p product
 end
 
 def modulo(num1, num2)
-modulo = num1.divmod(num2)
-p
+modulo = num1 / num2
+modulo = modulo.to_f
+p modulo
 end
 
 def square_root(num)
