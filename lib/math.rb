@@ -21,7 +21,7 @@ p product
 end
 
 def modulo(num1, num2)
-quotient = num1 % num2
+modulo = num1.divmod(num2)
 p
 end
 
